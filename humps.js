@@ -42,6 +42,8 @@
     options = options || {};
     var separator = options.separator || '_';
     var split = options.split || /(?=[A-Z])/;
+    alert(string.split(split));
+    alert(separator);
 
     return string.split(split).join(separator);
   };
